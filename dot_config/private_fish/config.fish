@@ -16,6 +16,7 @@ alias g git
 command -qv nvim && alias vim nvim
 
 set -gx EDITOR nvim
+set GHQ_SELECTOR peco
 
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
